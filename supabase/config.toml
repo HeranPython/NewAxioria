@@ -1,0 +1,7 @@
+[functions.send-confirmation]
+verify_jwt = false
+entrypoint = "./functions/send-confirmation/index.ts"
+
+[functions.send-status-email]
+verify_jwt = true
+entrypoint = "./functions/send-status-email/index.ts"
